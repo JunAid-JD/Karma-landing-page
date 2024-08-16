@@ -1,0 +1,58 @@
+@media only screen  and (min-width:600px) {
+    /* *{
+        border: 1px solid;
+    } */
+   nav ul {
+        /* display: none; */
+    }
+    #logo1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+    #G11 {
+        position: relative;
+        top: 0rem;
+        left: -2rem;
+    }
+    #G12 {
+        position: relative;
+        bottom: 7.7rem;
+        left: 2.4rem;
+        z-index: 2;}
+        #G13 {
+            z-index: 3;
+            position: relative;
+            bottom: 33rem;
+            left: 17rem;
+        }
+        #G21 {
+            z-index: 2;
+            position: relative;
+            top: 7rem;
+            left: -2rem;
+        }
+        #G22 {
+            position: relative;
+            bottom: 17rem;
+            left: 11rem;
+            z-index: 1;
+        }
+        #G23 {
+            z-index: 3;
+            position: relative;
+            bottom: 18rem;
+            left: 11rem;
+        }        
+        .card1 {
+            position: relative;
+            left: 0%;
+            z-index: 1;
+        }
+        .card2{
+            margin-left: 15rem;
+        }
+        .searchbar input {
+          padding: 0.6rem;
+        }
+}

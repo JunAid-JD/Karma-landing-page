@@ -1,0 +1,10 @@
+@media only screen  and (min-width:768px) {
+    #frame1 {
+        height: 570px;
+        padding-left: 7rem;
+        padding-bottom: 5rem;
+    }
+    .frame2 {
+        height: 370px;
+    }
+}

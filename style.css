@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+header{
+    background: white;
+    width: 100%;
+    position:sticky;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+#logo1{
+     margin: 0% 0 0%;
+     padding-left: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0% 0;
+}
+ul{
+  padding: 1% 0;
+}
+ul li{
+    display: inline-block;
+     padding: 10px;  
+ /* margin: 3% 0; */
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+ul li a:hover{
+    color: rgb(77, 70, 70);
+    opacity: 0.5;
+}
+#home{
+    color: coral;
+}
+.button{
+    background: coral;
+    border: 1px solid coral;
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    padding: 9px 20px;
+    margin-right: 15px;
+}
+.button:hover{
+          background-color: rgb(21, 21, 53);
+}
+#frame1{
+    height: 450px;
+}
+.frame2{
+    height: 450px;
+}
+.row{
+    width: 100.9%;
+}
+.row .col h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.margin-left{
+    margin-left: 5%;
+}
+.row .col p{
+        font-size: 20px;
+}
+.backgroundcolor{
+    background-color: rgb(245, 241, 235);;
+    /* width: 100%; */
+    padding-top: 50px;
+}
+#features{
+    padding-left: 15px;
+}
+.detail1{
+    background-color: lightcoral;
+    height: 30rem;
+    /* width: 100%;/ */
+    /* margin-left: 0px; */
+} 
+#G11{
+position: relative;
+top: 0rem;
+left: 0rem;
+}
+    #G12 {
+        position: relative;
+        bottom: 7.7rem;
+        left: 9.4rem;
+        z-index: 2;
+    }
+#G13{
+  z-index: 3;
+  position: relative;
+  bottom: 33rem;
+  left: 23rem;
+}
+
+
+.detail2{
+    background-color: lightgreen;
+    height: 30rem;
+    /* width: 100%; */
+    margin-right: 30px;
+}
+#G21{
+    z-index: 2;
+    position: relative;
+    top: 7rem;
+    left: 0rem;
+
+}
+#G22{
+    position: relative;
+    bottom: 16rem;
+    left: 13rem;
+    z-index: 1;
+}
+#G23{
+  z-index: 3;
+  position: relative;
+  bottom: 22rem;
+  left: 16rem;
+}
+#section2{
+    margin-left: 5%;
+}
+.cardinfo{
+    margin-left: 5%;
+}
+.cardinfo h2{
+    font-size: 50px;
+}
+#cardheading2{
+    background-color: lightcoral;
+}
+#cardheading1{
+    background-color: lightgray;
+}
+.card1{
+    position: relative;
+    left: 15%;
+    z-index: 1;
+}
+.card2{
+    position: relative;
+    z-index: 3;
+}
+.descripstion{
+    padding-top: 5%;
+}
+#lastcol{
+    background-color: blanchedalmond;
+    height: 20rem;
+}
+#lastcol button{
+    margin-left: 40%;
+}
+.footeraddress{
+    color: white;
+    padding-left: 10px;
+}
+.footeraddressother{
+    color: white;
+    
+}
+.searchbar input{
+    font-size: 18px;
+    padding: 5%;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid white;
+}
+.footerbtn{
+    width: 14.3rem;
+    height: 3.5rem;
+    margin-top: 20px;
+}
